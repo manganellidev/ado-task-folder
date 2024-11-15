@@ -16,7 +16,7 @@
     {
       "name": "ParentFolder",
       "type": "filePath",
-      "label": "Parent Folder Directory",
+      "label": "Parent Folder Directory 1",
       "defaultValue": "",
       "required": true,
       "helpMarkDown": "Folder whose content you wanted to print out"

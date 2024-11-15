@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "WmGetFolderContent",
   "name": "WM Get Folder Content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "SDP",
   "targets": [
     {
@@ -11,7 +11,9 @@
   ],
   "description": "This task print out the content of the given directory",
   "public": false,
-  "categories": ["Azure Pipelines"],
+  "categories": [
+    "Azure Pipelines"
+  ],
   "content": {
     "details": {
       "path": "Marketplace.md"
@@ -29,7 +31,9 @@
     {
       "id": "WmGetFolderContent",
       "type": "ms.vss-distributed-task.task",
-      "targets": ["ms.vss-distributed-task.tasks"],
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
       "properties": {
         "name": "Tasks/GetFolderContent"
       }
