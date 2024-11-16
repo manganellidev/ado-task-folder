@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mangadev-npm/seedex": "^0.0.4",
     "azure-pipelines-task-lib": "^4.4.0",
-    "chalk": "^4.1.2"
+    "dayjs": "^1.11.13"
   },
   "devDependencies": {
     "@types/node": "^20.4.8",
