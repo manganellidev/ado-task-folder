@@ -10,7 +10,7 @@
   "version": {
     "Major": 1,
     "Minor": 0,
-    "Patch": 0
+    "Patch": 31
   },
   "inputs": [
     {
@@ -23,7 +23,7 @@
     }
   ],
   "execution": {
-    "Node": {
+    "Node20_1": {
       "target": "script.js"
     }
   }

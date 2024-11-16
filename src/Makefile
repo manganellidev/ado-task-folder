@@ -2,7 +2,7 @@ bump-version:
 	@echo "Incrementing version number"
 	@jq '.version |= (split(".") | .[2] |= (tonumber + 1 | tostring) | join("."))' vss-extension.json > tmp.json && mv tmp.json vss-extension.json
 
-create-ado-extension: bump-version
+create-ado-extension:
 	@echo "Creating ADO extension"
 	@npx tfx-cli extension create --manifests vss-extension.json --output-path wm-get-folder-content.vsix
 
