@@ -14,6 +14,8 @@ try {
   console.log(seedex.generateRandomLastName());
   console.log(seedex.generateRandomEmailDomain());
 
+  console.log("HERE I AM!");
+
   console.log(`Listing files in "${parentFolder}" as of ${currentDate}:`);
   for (const file of files) {
     console.log(`- ${file}`);

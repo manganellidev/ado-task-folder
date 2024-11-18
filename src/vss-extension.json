@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "WmGetFolderContent",
   "name": "WM Get Folder Content",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "publisher": "SDP",
   "targets": [
     {
